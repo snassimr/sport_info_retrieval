@@ -49,6 +49,13 @@ In the vast and dynamic world of sports, key moments often define games and fuel
 
     2.3 Set AUDIO_TO_TEXT_MODEL_FOLDER and AUDIO_TO_TEXT_MODEL_NAME accordingly in config.yaml
 
+    2.4 Install ffmpeg on Linux
+
+    ```
+    sudo apt update
+    sudo apt install ffmpeg
+    ```
+
 # Retrieve Info
 
 ```
