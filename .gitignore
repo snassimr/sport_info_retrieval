@@ -1,4 +1,4 @@
 .env
 config.yaml
 models/
-__pycache__
+__pycache__/
