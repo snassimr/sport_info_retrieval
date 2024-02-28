@@ -1,0 +1,11 @@
+pytube==15.0.0
+accelerate==0.26.1
+transformers==4.37.2
+git+https://github.com/openai/whisper.git@v20231117
+ffmpeg-python==0.2.0
+gputil==1.4.0
+python-dotenv
+openai==1.10.0
+llama-index==0.9.10
+ipykernel
+ipywidgets

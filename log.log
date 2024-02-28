@@ -1,0 +1,5 @@
+02/28/2024 02:41:10 PM: pre_exec memory usage for GPU 0 during 'get_audio_text': 2.0MB
+02/28/2024 02:41:10 PM: post_exec memory usage for GPU 0 during 'get_audio_text': 7121.0MB
+02/28/2024 02:41:10 PM: peak memory usage for GPU 0 during 'get_audio_text': 7119.0MB
+02/28/2024 02:41:10 PM: Function 'get_audio_text' executed in 162.6493 seconds
+02/28/2024 02:41:26 PM: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

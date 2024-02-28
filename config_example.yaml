@@ -1,0 +1,3 @@
+AUDIO_TO_TEXT_MODEL_FOLDER: "models"
+AUDIO_TO_TEXT_MODEL_NAME: "whisper-medium.en"
+OPENAI_API_KEY: 'sk-...'
