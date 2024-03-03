@@ -35,11 +35,11 @@ AUDIO_TO_TEXT_MODEL_PATH   = os.path.join(AUDIO_TO_TEXT_MODEL_FOLDER, AUDIO_TO_T
 ### Download youtube audio
 VIDEO_NAME, AUDIO_FILE_PATH = download_youtube_audio(YOUTUBE_URL, AUDIO_FOLDER)
 
-TEXT_FILE_PATH   = os.path.join(TEXT_FOLDER, VIDEO_NAME + '.txt')
-
 print(f"{VIDEO_NAME} audio size is : {os.path.getsize(AUDIO_FILE_PATH)} bytes.")
 
 ### Get audio text transcript
+TEXT_FILE_PATH   = os.path.join(TEXT_FOLDER, VIDEO_NAME + '.txt')
+
 text = get_audio_text(AUDIO_FILE_PATH, AUDIO_TO_TEXT_MODEL_PATH)
 
 free_gpu_memory()

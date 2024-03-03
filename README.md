@@ -8,9 +8,9 @@ In the vast and dynamic world of sports, key moments often define games and fuel
 
 # Setup environment
 
-1. Setup conda env
+1. Setup conda environment
 
-    1.1 Setup miniconda
+    1.1 Install miniconda
 
     ```
     wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.9.0-0-Linux-x86_64.sh  .
@@ -30,7 +30,7 @@ In the vast and dynamic world of sports, key moments often define games and fuel
 
 2. Download and prepare pre-trained audio-to-text model
 
-    2.1 Download model from Hugging Face.
+    2.1 Download model from Hugging Face
 
     See [here](https://huggingface.co/docs/hub/en/models-downloading) or run these commands in Jupyter cell :
 
@@ -44,12 +44,11 @@ In the vast and dynamic world of sports, key moments often define games and fuel
     # archive folder to copy folder to target location
     !zip -r whisper-medium.en.zip whisper-medium.en -x "whisper-medium.en/.git/*"
     ```
+    Unarchive zip to get model folder and copy it to to sport_info_retrieval/models.
 
-    2.2 Unarchive zip to get model folder and copy it to to sport_info_retrieval/models.
+    2.2 Adjust configuration - set AUDIO_TO_TEXT_MODEL_FOLDER and AUDIO_TO_TEXT_MODEL_NAME in config.yaml
 
-    2.3 Set AUDIO_TO_TEXT_MODEL_FOLDER and AUDIO_TO_TEXT_MODEL_NAME accordingly in config.yaml
-
-    2.4 Install ffmpeg on Linux
+    2.3 Perform installs on Linux
 
     ```
     sudo apt update
